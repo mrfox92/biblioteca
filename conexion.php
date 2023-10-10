@@ -3,7 +3,7 @@
 $host = 'localhost'; // Cambia esto al nombre del servidor de tu base de datos en nuestro caso es localhost
 $dbname = 'biblioteca'; // Cambia esto al nombre de tu base de datos - biblioteca
 $username = 'root'; // Cambia esto al nombre de usuario de tu base de datos - usuario root
-$password = 'root1234'; // Cambia esto a la contraseña de tu base de datos - password = root1234
+$password = ''; // Cambia esto a la contraseña de tu base de datos - password = root1234
 
 // Intentar establecer la conexión - con try catch podemos capturar los errores
 try {
