@@ -4,7 +4,7 @@ include 'conexion.php';
 include './partials/scripts.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $idCategoria = $_POST['idCategoria'];
+    $idCategoria = (int)$_POST['idCategoria'];
 
     try {
         // Verificar si existen libros asociados a la categoría
